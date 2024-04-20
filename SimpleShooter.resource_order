@@ -17,10 +17,12 @@
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
   ],
   "ResourceOrderSettings":[
+    {"name":"obj_bullet","order":2,"path":"objects/obj_bullet/obj_bullet.yy",},
     {"name":"obj_game","order":1,"path":"objects/obj_game/obj_game.yy",},
     {"name":"Grassland_64x64","order":4,"path":"sprites/Grassland_64x64/Grassland_64x64.yy",},
     {"name":"plr_down","order":1,"path":"sprites/plr_down/plr_down.yy",},
     {"name":"plr_left","order":2,"path":"sprites/plr_left/plr_left.yy",},
     {"name":"plr_right","order":3,"path":"sprites/plr_right/plr_right.yy",},
+    {"name":"spr_bullet","order":5,"path":"sprites/spr_bullet/spr_bullet.yy",},
   ],
 }

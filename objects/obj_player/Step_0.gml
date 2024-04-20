@@ -29,5 +29,11 @@ if(keyboard_check(ord("S"))){
 	y -= _move_speed;
 }
 
+if mouse_check_button_pressed(mb_left){
+	instance_create_layer(x,y,"Instances", obj_bullet);
+}
+
+
 x = clamp(x, 0, room_width);
 y = clamp(y, 0, room_height);
+
