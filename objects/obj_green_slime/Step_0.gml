@@ -1,6 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
-var move_speed = 1;
+var move_speed = .3;
 if (path_end) {
     // Calculate a path from enemy's position to player's position
     var path = path_add();
