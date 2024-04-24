@@ -17,17 +17,21 @@ if(angle >= 45 && angle < 135){
 	sprite_index = plr_right;
 }
 
-if(keyboard_check(ord("D"))) {
-	x += _move_speed;
-} else if (keyboard_check(ord("A"))) {
-	x -= _move_speed;
+
+var _right = keyboard_check(ord("D"));
+var _left = keyboard_check(ord("A"));
+var _up = keyboard_check(ord("W"));
+var _down = keyboard_check(ord("S"));
+
+var _xinput = _right - _left;
+var _yinput = _down - _up;
+move_and_collide(_xinput * _move_speed, _yinput * _move_speed, my_tilemap);
+
+if(_xinput != 0 || _yinput != 0){
+	//image_index = 0;
 }
 
-if(keyboard_check(ord("S"))){
-	y += _move_speed;
-} else if (keyboard_check(ord("W"))){
-	y -= _move_speed;
-}
+
 
 if mouse_check_button_pressed(mb_left){
 	instance_create_layer(x,y,"Instances", obj_bullet);

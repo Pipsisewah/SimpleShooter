@@ -1,12 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"obj_player",
-  "eventList":[
-    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"obj_tree",
+  "eventList":[],
   "managed":true,
-  "name":"obj_player",
+  "name":"obj_tree",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -31,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":true,
   "spriteId":{
-    "name":"plr_up",
-    "path":"sprites/plr_up/plr_up.yy",
+    "name":"spr_tree",
+    "path":"sprites/spr_tree/spr_tree.yy",
   },
   "spriteMaskId":null,
   "visible":true,
